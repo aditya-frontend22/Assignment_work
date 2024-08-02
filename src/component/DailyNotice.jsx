@@ -2,13 +2,13 @@ import React from 'react'
 
 function DailyNotice() {
   return (
-    <aside class=" bg-white m-4 relative max-md:absolute max-md:right-0 2xl:hidden max-md:inline rounded-xl">
+    <aside class="mx-2 my-1 max-xl:absolute max-xl:right-0 max-xl:hidden max-sm:inline rounded-xl bg-white max-sm:w-3/5">
         {/* <div class="bg-white"> */}
         <div class="flex justify-between bg-white">
             <p>Daily Notice</p>
             <p class="text-blue-500">See all</p>
         </div>
-                <div class="my-[10px] border rounded-lg h-96 p-6 shadow-2xl">
+                <div class="my-[10px] border rounded-lg h-96 p-6 shadow-2xl bg-blue-100">
             <h1 class="font-semibold mt-2">Event</h1>
             <p class="font-extralight text-base">Today at the student of class 1st to 8th come to Auditiurium</p>
             <h1 class="font-semibold mt-2">Exam schedule</h1>

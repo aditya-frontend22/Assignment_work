@@ -7,6 +7,7 @@ import Button from "./assets/bars-solid.svg"
 import { useState } from 'react';
 import bell from "./assets/bell-regular.svg"
 
+
 function App() {
   const [isVisible, setIsVisible] = useState(true)
   const [show, setShow] = useState(true)
@@ -39,8 +40,7 @@ function App() {
         {
           isVisible ?  <Sidebar /> : null
         }
-        {/* <BodyCenter /> */}
-        <Home />
+          <BodyCenter />
         {
           show ? <DailyNotice /> : null
         }
