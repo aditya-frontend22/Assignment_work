@@ -77,8 +77,15 @@ function BodyCenter() {
             </div>
         </div>
      </div>
-     <div class="w-72 bg-lime-100 shadow-xl mx-4 rounded-xl max-lg:hidden">
-        {/* <DonutChart /> */}
+     <div class="w-72 shadow-xl mx-4 rounded-xl max-lg:hidden">
+        <DonutChart data={
+            [
+                { label: "", value: 40 },
+                { label: "", value: 60 },
+                { label: "", value: 20 },
+                { label: "", value: 10 },
+            ]
+        } width={350} height={250} />
      </div>
      </div>
     </section>
