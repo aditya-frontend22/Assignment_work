@@ -2,7 +2,7 @@ import React from 'react'
 
 function Dashboard(props) {
   return (
-  <div class="flex my-4">
+  <div class="flex my-2">
         <img src={props.image} width="16px" height="16px" class="mx-2"/>
         <p class="font-extralight">{props.name}</p>
   </div>

@@ -8,7 +8,7 @@ import FeesStatus from './Props/FeesStatus'
 
 function BodyCenter() {
   return (
-    <section class="w-full p-5 shadow-xl">
+    <section class="w-full p-5 shadow-xl h-fit">
     <div class="flex justify-between border shadow-lg py-5 px-4 rounded-lg">
         <div>
             <div class="flex">
@@ -25,11 +25,13 @@ function BodyCenter() {
         </div>
     </div>
     <p class="text-2xl my-4 font-medium">Fee Status</p>
-    <div class="bg-[#85fbe9] w-full h-52 rounded-lg shadow-xl flex justify-between items-center max-md:px-1 lg:px-36">
-        <FeesStatus />
+    <div class="bg-[#85fbe9] w-full h-52 rounded-lg shadow-xl flex items-center max-md:px-1 lg:px-36 justify-center">
+        <FeesStatus price="5000" about="Total pay"/>
+        <FeesStatus price="5000" about="Pending fees"/>
+        <FeesStatus price="5000" about="Paid fees"/>
     </div>
-    <p class="text-[22px] my-[10px] font-medium">Subject's Progress</p>
-    <div class="bg-[#85fbe9] h-56 rounded-lg shadow-xl py-2 overflow-auto ">
+    <p class="text-2xl my-4 font-medium">Subject's Progress</p>
+    <div class="bg-[#85fbe9] h-60 rounded-lg shadow-xl py-2 overflow-auto ">
         <div class="bg-white w-11/12 h-14 rounded-lg m-auto flex items-center justify-between px-4 my-4 shadow-2xl">
             <p class="text-blue-400">Math</p>
             <p class="max-md:mx-6">Chapter 6</p>
