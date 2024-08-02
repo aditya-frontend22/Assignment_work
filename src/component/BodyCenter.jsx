@@ -87,7 +87,7 @@ function BodyCenter() {
             ]
         } width={350} height={250} />
      </div>
-     </div>
+</div>
     </section>
   )
 }
