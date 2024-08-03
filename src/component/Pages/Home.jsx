@@ -3,10 +3,10 @@ import userimage from "../../assets/user-regular.svg"
 
 function Home() {
   return (
-    <div class="w-4/5 mx-4 my-4 ">
+    <div class="w-full m-4">
         <h1 class="text-start text-2xl">Profile</h1>
         <div class="flex justify-between max-lg:inline items-center">
-            <div class="border rounded-lg shadow-xl p- w-full mr-[10px] flex h-32 items-center">
+            <div class="border rounded-lg shadow-xl w-full mr-4 flex h-32 items-center">
                 <img src={userimage} width="60px" height="60px" class="mx-4"/>
                 <div>
                 <p class="text-2xl text-slate-500">Abhishek Kumar</p>
@@ -16,12 +16,12 @@ function Home() {
             </div>
             <div class="border rounded-lg w-full shadow-xl p-5 my-4 h-32">
                 <p class="my-1">Reading skills</p>
-                <div class="w-4/5 bg-blue-200 h-2.5 rounded-md">
-                    <div class="w-4/5 bg-blue-600 h-2.5 rounded-md"></div>
+                <div class="w-4/5 bg-blue-200 h-2 rounded-md">
+                    <div class="w-4/5 bg-blue-600 h-2 rounded-md"></div>
                 </div>
                 <p class="my-2">Reading skills</p>
-                <div class="w-4/5 bg-red-200 h-2.5 rounded-lg">
-                    <div class="w-2/5 bg-red-600 h-2.5 rounded-lg"></div>
+                <div class="w-4/5 bg-red-200 h-2 rounded-lg">
+                    <div class="w-2/5 bg-red-600 h-2 rounded-lg"></div>
                 </div>
             </div>
         </div>

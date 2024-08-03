@@ -2,8 +2,7 @@ import React from 'react'
 
 function DailyNotice() {
   return (
-    <aside class="w-1/5 mx-2 my-1 max-xl:absolute max-xl:right-0 max-xl:hidden max-sm:inline rounded-xl bg-white max-sm:w-3/5">
-        {/* <div class="bg-white"> */}
+    <aside class="mx-2 my-1 max-lg:absolute max-xl:right-0  max-sm:inline rounded-xl bg-white">
         <div class="flex justify-between bg-white">
             <p>Daily Notice</p>
             <p class="text-blue-500">See all</p>

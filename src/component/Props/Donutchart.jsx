@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-function Donutchart() {
-  return (
-    <div>
-        <Donutchart />
-    </div>
-  )
-}
+// function Donutchart() {
+//   return (
+//     <div>
+//         <Donutchart />
+//     </div>
+//   )
+// }
 
-export default Donutchart
+// export default Donutchart
